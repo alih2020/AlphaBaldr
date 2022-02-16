@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="ca.qc.bdeb.baldr.noyau.ProjetTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="ca.qc.bdeb.baldr.noyau.ProjetTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -67,7 +67,7 @@
   <testcase classname="ca.qc.bdeb.baldr.noyau.ProjetTest" name="testEnleverTaskALaideDeTask" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.ProjetTest" name="clearTasks" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.ProjetTest" name="AjouterUntAskAvecPosition" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.ProjetTest" name="testSaveRestoreFormatBaldr" time="0.003"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.ProjetTest" name="testSaveRestoreFormatBaldr" time="0.006"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.ProjetTest" name="testDupliquerTask" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.ProjetTest" name="AjouterUntAskSiPasPlein" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.ProjetTest" name="testGetLastFile" time="0"/>
