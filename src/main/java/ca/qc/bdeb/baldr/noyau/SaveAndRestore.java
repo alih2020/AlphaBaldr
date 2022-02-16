@@ -95,12 +95,12 @@ public class SaveAndRestore {
     private static BufferedWriter ouvrirEnEcriture(File fichier) {
         OutputStream stream;
 
-        BufferedWriter out = null;
+    //    BufferedWriter out = null;
 
         try {
             stream = new FileOutputStream(fichier);
 
-            out = new BufferedWriter(new OutputStreamWriter(stream));
+   //         out = new BufferedWriter(new OutputStreamWriter(stream));
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
         }
