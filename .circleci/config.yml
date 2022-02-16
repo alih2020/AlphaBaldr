@@ -20,11 +20,11 @@ jobs:
       - checkout
       # Use mvn clean and package as the standard maven build phase
       - run:
-          name: clean
+          name: Clean
           command: mvn clean
       # Then run your tests!
       - run:
-          name: compile
+          name: Compile
           command: mvn compile
       - run:
           name: Test
