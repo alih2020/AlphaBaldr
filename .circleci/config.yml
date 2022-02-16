@@ -32,7 +32,7 @@ jobs:
           command: mvn compile
       - run:
           name: Test
-          command: mvn javadoc:javadoc
+          command: mvn test
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
