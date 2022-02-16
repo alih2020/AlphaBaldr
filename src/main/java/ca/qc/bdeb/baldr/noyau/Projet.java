@@ -208,8 +208,8 @@ public class Projet implements Savable {
     }
 
     public void restore(File f) {
-        SaveAndRestore sav = new SaveAndRestore(this);
-        sav.restore(f);
+        //SaveAndRestore sav = new SaveAndRestore(this);
+        //sav.restore(f);
         lastFile = f;
 
         modifie = false;
@@ -218,8 +218,8 @@ public class Projet implements Savable {
     public File save(File f) throws RienASauvegarderException {
         modifie = false;
 
-        SaveAndRestore sav = new SaveAndRestore(this);
-        sav.save(f);
+     //   SaveAndRestore sav = new SaveAndRestore(this);
+    //    sav.save(f);
 
         lastFile = f;
         return f;

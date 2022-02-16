@@ -15,7 +15,7 @@ import ca.qc.bdeb.baldr.noyau.GestionnairePreferences;
 import ca.qc.bdeb.baldr.noyau.Noyau;
 import ca.qc.bdeb.baldr.noyau.Projet;
 import ca.qc.bdeb.baldr.noyau.RienASauvegarderException;
-import ca.qc.bdeb.baldr.noyau.SaveAndRestore;
+//import ca.qc.bdeb.baldr.noyau.SaveAndRestore;
 import ca.qc.bdeb.baldr.noyau.Task;
 
 import ca.qc.bdeb.baldr.utils.Extension;
@@ -799,13 +799,13 @@ public class WindowBaldr extends javax.swing.JFrame implements Observateur, Obse
             if (lastdir != null) {
                 chooser.setCurrentDirectory(new File(lastdir));
             }
-            if (chooser.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
-                SaveAndRestore.exportTo(analys, chooser.getSelectedFile());
+          //  if (chooser.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+              //  SaveAndRestore.exportTo(analys, chooser.getSelectedFile());
             }
-        } else {
+       // } else {
             //todo: afficher erreur
         }
-    }//GEN-LAST:event_menuExporterAnalyseActionPerformed
+   // }//GEN-LAST:event_menuExporterAnalyseActionPerformed
 
     private void closeMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeMenuItemActionPerformed
         nouveauProjet = true;

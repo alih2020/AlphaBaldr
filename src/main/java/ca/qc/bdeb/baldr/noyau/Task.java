@@ -1466,7 +1466,7 @@ public class Task implements Savable, Observable, Cloneable {
             }
 
             str.append("<file " + "hash='" + strHash + "'" + ">");
-            str.append(SaveAndRestore.escape(f.getAbsolutePath()));
+         //   str.append(SaveAndRestore.escape(f.getAbsolutePath()));
             str.append("</file>\n");
         }
 
