@@ -41,11 +41,12 @@ jobs:
          name: JavaDoc
          command: mvn javadoc:javadoc
       - run:
-          name: Build docs
-          command: mvn site
-      - persist_to_workspace:
-          root: docs/_build
-          paths: target/site/apidocs
+          name: Automation
+          command: cd target/site/apidocs/ && make html
+    #  - persist_to_workspace:
+     #     root: docs/_build
+      #    paths: html
+          
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
