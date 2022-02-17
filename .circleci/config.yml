@@ -48,7 +48,7 @@ jobs:
             echo '<!--test-->' >> index.html 
             git add .
             git commit -m latest
-            fit push origin gh-pages
+            git push origin gh-pages
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
