@@ -60,9 +60,9 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testAjouter" time="0.02"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testSuprimer" time="0.013"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testAjouter" time="0.016"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testSuprimer" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testEnregistrerFiltre" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testObtenirFiltreAvecPref" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testObtenirFiltreSansPref" time="0"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testObtenirFiltreAvecPref" time="0.016"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.FiltreTest" name="testObtenirFiltreSansPref" time="0.001"/>
 </testsuite>
