@@ -41,8 +41,11 @@ jobs:
          name: JavaDoc
          command: mvn javadoc:javadoc
       - run:
-          name: Commentaire
-          command: echo '<!--test-->' >> index.html
+          name: Test gh-pages
+          command: | 
+            git switch gh-pages 
+            echo '<!--test-->' >> index.html 
+
           
 
 # Invoke jobs via workflows
