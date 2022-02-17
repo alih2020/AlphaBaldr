@@ -7,8 +7,9 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Baldr</name>
+  
     <url>http://maven.apache.org</url>
+    <name>MAVEN - ${project.artifactId}</name>
     <build>
         <plugins>
             <plugin>
