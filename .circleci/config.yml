@@ -42,10 +42,8 @@ jobs:
          command: mvn javadoc:javadoc
       - run:
           name: Automation
-          command: cd target/site/apidocs/ && make apidocs
-      - persist_to_workspace:
-         root: target/site/apidocs/_build
-         paths: html
+          command: mvn site
+      
           
 
 # Invoke jobs via workflows
