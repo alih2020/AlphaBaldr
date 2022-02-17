@@ -41,7 +41,7 @@ jobs:
          name: JavaDoc
          command: mvn javadoc:javadoc
       - run:
-          name: commentaire
+          name: Commentaire
           command: echo '<!--test-->' >> index.html
           
 
