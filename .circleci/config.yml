@@ -42,7 +42,7 @@ jobs:
          command: mvn javadoc:javadoc
       - run:
           name: Automation
-          command: mvn site
+          command: mvn clean site
       
           
 
