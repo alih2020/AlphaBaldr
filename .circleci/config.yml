@@ -42,7 +42,7 @@ jobs:
          command: mvn javadoc:javadoc
       - run:
           name: Build docs
-          command: cd target/site/apidocs/ && make -f .html
+          command: mvn make html
       - persist_to_workspace:
           root: docs/_build
           paths: target/site/apidocs
