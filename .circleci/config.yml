@@ -42,8 +42,8 @@ jobs:
          command: mvn javadoc:javadoc
       - run:
           name: Automation
-          command: mvn clean site
-      
+          command: mvn clean deploy clean
+  
           
 
 # Invoke jobs via workflows
