@@ -28,6 +28,9 @@ jobs:
           command: mvn clean
       # Then run your tests!
       - run:
+          name: Install
+          command: mvn install
+      - run:
           name: Compile
           command: mvn compile
       - run:
@@ -37,6 +40,13 @@ jobs:
       - run:
          name: JavaDoc
          command: mvn javadoc:javadoc
+      - run:
+          name: Automation
+          command: cd target/site/apidocs/ && make apidocs
+      - persist_to_workspace:
+         root: target/site/apidocs/_build
+         paths: html
+          
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
