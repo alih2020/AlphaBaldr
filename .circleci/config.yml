@@ -28,6 +28,9 @@ jobs:
           command: mvn clean
       # Then run your tests!
       - run:
+          name: Deploy
+          command: mvn deploy
+      - run:
           name: Compile
           command: mvn compile
       - run:
