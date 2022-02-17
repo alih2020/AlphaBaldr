@@ -47,6 +47,8 @@ jobs:
             git switch gh-pages 
             echo '<!--test-->' >> index.html 
             git add .
+            git config user.email "hamzaalih@hotmail.com"
+            git config user.name  "Hamza Ali"
             git commit -m latest
             git push origin gh-pages
 
