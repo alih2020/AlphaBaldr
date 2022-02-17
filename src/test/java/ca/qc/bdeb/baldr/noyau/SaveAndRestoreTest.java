@@ -21,7 +21,7 @@ public class SaveAndRestoreTest {
    private static final String titre = "Ajouter a un fichier";
     private static final String rapport = "DEF";
 
-  //  private static File fichierBaldr;
+    private static File fichierBaldr;
 
     public SaveAndRestoreTest() {
     }
