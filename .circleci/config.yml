@@ -43,9 +43,9 @@ jobs:
       - run:
           name: Automation
           command: cd target/site/apidocs/ && make html
-    #  - persist_to_workspace:
-     #     root: docs/_build
-      #    paths: html
+      - persist_to_workspace:
+         root: target/site/apidocs/_build
+         paths: html
           
 
 # Invoke jobs via workflows
