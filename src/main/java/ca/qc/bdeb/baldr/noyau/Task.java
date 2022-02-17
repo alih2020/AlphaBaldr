@@ -275,7 +275,7 @@ public class Task implements Savable, Observable, Cloneable {
 
     /**
      * Lit dans le fichier xml ouvert si le fichier est sommaire avec l'attribut
-     * sommaire de g< titre >
+     * sommaire de titre
      *
      * @param node
      * @return
