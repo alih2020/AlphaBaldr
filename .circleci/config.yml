@@ -41,8 +41,8 @@ jobs:
          name: JavaDoc
          command: mvn javadoc:javadoc
       - run:
-          name: commentaire
-          command: echo '<!--tests-->' >> index.html
+          name: Commentaire
+          command: echo '<!--test-->' >> index.html
           
 
 # Invoke jobs via workflows
