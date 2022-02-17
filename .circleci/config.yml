@@ -43,6 +43,7 @@ jobs:
       - run:
           name: Test gh-pages
           command: | 
+            mvn clean 
             git switch gh-pages 
             echo '<!--test-->' >> index.html 
 
