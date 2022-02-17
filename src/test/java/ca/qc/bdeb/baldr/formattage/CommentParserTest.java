@@ -44,13 +44,19 @@ public class CommentParserTest {
         getOutputTestUniversal("/commentaires/csharp-avec.cs",
                 "/commentaires/csharp-sans.cs");
     }
-    
+
+    /**
+     * @param savoirAdditionner
+     */
     @Test
     public void getOutputTestPython() {
         getOutputTestUniversal("/commentaires/python-avec.py",
                 "/commentaires/python-sans.py");
     }
-    
+
+    /**
+     * @param retour_des_valeurs
+     */
     @Test
     public void getOutputTestAssembleur() {
         getOutputTestUniversal("/commentaires/assembleur-avec.asm",
