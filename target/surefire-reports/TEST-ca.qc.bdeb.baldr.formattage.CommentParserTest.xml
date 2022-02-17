@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="ca.qc.bdeb.baldr.formattage.CommentParserTest" time="0.032" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="ca.qc.bdeb.baldr.formattage.CommentParserTest" time="0.065" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -60,8 +60,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ca.qc.bdeb.baldr.formattage.CommentParserTest" name="getOutputTestSQL" time="0.015"/>
-  <testcase classname="ca.qc.bdeb.baldr.formattage.CommentParserTest" name="getOutputTestCSharp" time="0.017"/>
+  <testcase classname="ca.qc.bdeb.baldr.formattage.CommentParserTest" name="getOutputTestSQL" time="0.031"/>
+  <testcase classname="ca.qc.bdeb.baldr.formattage.CommentParserTest" name="getOutputTestCSharp" time="0.018"/>
   <testcase classname="ca.qc.bdeb.baldr.formattage.CommentParserTest" name="getOutputTestPython" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.formattage.CommentParserTest" name="getOutputTestAssembleur" time="0"/>
+  <testcase classname="ca.qc.bdeb.baldr.formattage.CommentParserTest" name="getOutputTestAssembleur" time="0.016"/>
 </testsuite>
