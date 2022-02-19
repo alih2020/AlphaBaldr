@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ca.qc.bdeb.baldr.noyau.ProjetTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec

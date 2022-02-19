@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="ca.qc.bdeb.baldr.noyau.NoyauTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="ca.qc.bdeb.baldr.noyau.NoyauTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -61,7 +61,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="ca.qc.bdeb.baldr.noyau.NoyauTest" name="testFlushPrefs" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.NoyauTest" name="testReadWritePref" time="0.001"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.NoyauTest" name="testReadWritePref" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.NoyauTest" name="testGetNoyauNotNull" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.NoyauTest" name="testPrefExists" time="0"/>
 </testsuite>

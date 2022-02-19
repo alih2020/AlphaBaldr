@@ -8,7 +8,7 @@ package ca.qc.bdeb.baldr.noyau;
 
 /**
  * Crée et gère les projets. Se fie à la classe GestionnairePreferences pour
- * gérer les préférences.
+ * gérer les préférences en les priorisant bien sûr.
  *
  * @author zeta
  * @author mbernard

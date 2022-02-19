@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="ca.qc.bdeb.baldr.utils.CorrespondanceTest" time="0" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="ca.qc.bdeb.baldr.utils.CorrespondanceTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -72,5 +72,5 @@
   <testcase classname="ca.qc.bdeb.baldr.utils.CorrespondanceTest" name="testIndexOfSaufCaracteresInconnusCas1" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.utils.CorrespondanceTest" name="testIndexOfSaufCaracteresInconnusCas2" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.utils.CorrespondanceTest" name="testIndexOfSaufCaracteresInconnusCas3" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.utils.CorrespondanceTest" name="testIndexOfSaufCaracteresInconnusCas5" time="0"/>
+  <testcase classname="ca.qc.bdeb.baldr.utils.CorrespondanceTest" name="testIndexOfSaufCaracteresInconnusCas5" time="0.001"/>
 </testsuite>
