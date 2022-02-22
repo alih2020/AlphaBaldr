@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="41" failures="0" name="ca.qc.bdeb.baldr.noyau.TaskTest" time="0.422" errors="0" skipped="2">
+<testsuite tests="41" failures="0" name="ca.qc.bdeb.baldr.noyau.TaskTest" time="0.497" errors="0" skipped="2">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -60,49 +60,49 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAnalyseConcatenationFichierContenuDifferent" time="0.107"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAnalyseConcatenationAnnuler" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverCommentairesRessemblanceAssembleur" time="0"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAnalyseConcatenationFichierContenuDifferent" time="0.121"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAnalyseConcatenationAnnuler" time="0.001"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverCommentairesRessemblanceAssembleur" time="0.01"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="TesterCacherFichier" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testVerifierOccurenceSousDossier" time="0.016"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testGetPrefs" time="0.003"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAjouterObservateur" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testRestaurerFichiersCaches" time="0">
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testVerifierOccurenceSousDossier" time="0.007"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testGetPrefs" time="0"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAjouterObservateur" time="0.002"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testRestaurerFichiersCaches" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testCompareRetraitCommentairesEtRetraitCommentairesLignes" time="0.015"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testStop" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverLignesBlanches" time="0.015"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testFichiersDifferentsLecteurs" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testRetirerFichiers" time="0.016"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testVerifierAnalyseFaite" time="0.022"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testCompareRetraitCommentairesEtRetraitCommentairesLignes" time="0.028"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testStop" time="0.001"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverLignesBlanches" time="0.01"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testFichiersDifferentsLecteurs" time="0.002"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testRetirerFichiers" time="0.03"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testVerifierAnalyseFaite" time="0.026"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testFilesNull" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverUnFichier" time="0.017"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testGetFile" time="0.015"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverUnFichier" time="0.027"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testGetFile" time="0.008"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testConcatenerFichiersSansSources" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testMarquerRestauration" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testContientTache" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testSupprimerSource" time="0.001"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testSupprimerSource" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="estSommaireTest" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testMettreAJourFichiersConcatenation" time="0.002"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testIsSource" time="0"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testMettreAJourFichiersConcatenation" time="0"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testIsSource" time="0.002"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testConcatenerFichiers" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testGetFileNull" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testMakeComp" time="0.036"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testerGetRes" time="0.016"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testExtraxtImgMakeComp" time="0.016">
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testMakeComp" time="0.056"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testerGetRes" time="0.021"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testExtraxtImgMakeComp" time="0.021">
     <skipped/>
   </testcase>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAnalyseConcatenationFichierContenuIdentique" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="faireTestComparaison" time="0.042"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAnalyseConcatenationFichierContenuIdentique" time="0.001"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="faireTestComparaison" time="0.032"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverCommentairesRessemblanceSql" time="0.016"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverCommentairesRessemblanceCSharp" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testMettreAJourFichiers" time="0.018"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testConcatenationComplexe" time="0"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverCommentairesRessemblanceCSharp" time="0.008"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testMettreAJourFichiers" time="0.019"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testConcatenationComplexe" time="0.002"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testVerifierSiMemeSource" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAnalyseConcatenation" time="0.033"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testAnalyseConcatenation" time="0.031"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverObservateur" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverCommentairesRessemblancePython" time="0.016"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testEnleverCommentairesRessemblancePython" time="0.013"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testSetFiles" time="0"/>
   <testcase classname="ca.qc.bdeb.baldr.noyau.TaskTest" name="testRetirerSource" time="0"/>
 </testsuite>

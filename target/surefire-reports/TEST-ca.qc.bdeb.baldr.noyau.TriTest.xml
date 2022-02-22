@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="ca.qc.bdeb.baldr.noyau.TriTest" time="0.383" errors="0" skipped="0">
+<testsuite tests="15" failures="0" name="ca.qc.bdeb.baldr.noyau.TriTest" time="0.215" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -60,19 +60,19 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="testTypeI18NType" time="0.066"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriNomTest" time="0.032"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="testTypeI18NConstructeur" time="0.021"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="testTypeI118NString" time="0.03"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriResultatCroissantTest" time="0.036"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="testCreationObjet" time="0.016"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriAlphabetiqueDecroissantTest" time="0.016"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriUtilisationReelleTest" time="0.047"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriNull" time="0.037"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriMoyenneDecroissantTest" time="0.017"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriExtensionCroissantTest" time="0.015"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriResultatDecroissantTest" time="0"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriMoyenneCroissantTest" time="0.017"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriExtensionDecroissantTest" time="0.017"/>
-  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriAlphabetiqueCroissantTest" time="0.016"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="testTypeI18NType" time="0.026"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriNomTest" time="0.016"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="testTypeI18NConstructeur" time="0.014"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="testTypeI118NString" time="0.015"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriResultatCroissantTest" time="0.012"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="testCreationObjet" time="0.011"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriAlphabetiqueDecroissantTest" time="0.012"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriUtilisationReelleTest" time="0.03"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriNull" time="0.01"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriMoyenneDecroissantTest" time="0.01"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriExtensionCroissantTest" time="0.01"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriResultatDecroissantTest" time="0.01"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriMoyenneCroissantTest" time="0.014"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriExtensionDecroissantTest" time="0.012"/>
+  <testcase classname="ca.qc.bdeb.baldr.noyau.TriTest" name="TriAlphabetiqueCroissantTest" time="0.013"/>
 </testsuite>
