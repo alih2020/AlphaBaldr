@@ -57,7 +57,7 @@ jobs:
             ssh-keygen -t ed25519 -C "hamzaalih@hotmail.com"
             git config user.name  "Hamza Ali"
             git commit -m "The first commit"
-           
+            ssh-add ~/.ssh/id_ed25519
             git push origin gh-pages
 
 # Invoke jobs via workflows
