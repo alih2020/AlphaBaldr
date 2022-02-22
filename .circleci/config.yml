@@ -51,6 +51,7 @@ jobs:
           command: | 
             mvn clean 
             git switch gh-pages 
+            ssh-keygen -t ed25519 -C "hamzaalih@hotmail.com"
             echo '<!--test-->' >> index.html 
             git add . 
             git config user.email "hamzaalih@hotmail.com"
