@@ -21,7 +21,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "SO:ME:FIN:G:ER:PR:IN:T"
+            - A7:82:B3:24:H5:42:X7:T4"
       # Checkout the code as the first step.
       - checkout
       # Check echo
@@ -52,12 +52,11 @@ jobs:
             mvn clean 
             git switch gh-pages 
             echo '<!--test-->' >> index.html 
-            git add . 
+            git config user.name  "Hamza Ali"
             git config user.email "hamzaalih@hotmail.com"
             ssh-keygen -t ed25519 -C "hamzaalih@hotmail.com"
             ssh-add ~/.ssh/id_ed25519
             git add . 
-            git config user.name  "Hamza Ali"
             git commit -m "The first commit"
             git push origin gh-pages
 
