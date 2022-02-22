@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Hello-world
           command: echo "Hello World"
-      # Use mvn clean and package asthe standard maven build phase
+      # Use mvn clean and package asthe standard maven build phases
       - run:
           name: Clean
           command: mvn clean
