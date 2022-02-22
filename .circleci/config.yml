@@ -52,10 +52,8 @@ jobs:
             git add . 
             git config user.email "hamzaalih@hotmail.com"
             git config user.name  "Hamza Ali"
-            mkdir -p ~/.ssh
-            ssh-keygen -t ed25519-sk -C "hamzaalih@hotmail.com"
-            ssh-add ~/.ssh/id_ed25519
             git commit -m "The first commit"
+            gh-pages --dist docs/_build/html
             git push origin gh-pages
 
 # Invoke jobs via workflows
