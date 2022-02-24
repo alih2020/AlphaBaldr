@@ -49,7 +49,8 @@ jobs:
           command: | 
             mvn clean 
             git switch gh-pages 
-            echo '<!--Code Reviewed by Ali Hamza-->' >> index.html 
+            echo '<!--Code Checked and Reviewed by Ali Hamza-->' >> index.html 
+            echo '<h2>Mon nom est Hamza</h2>' >> index.html
             git config user.name  "Hamza Ali"
             git config user.email "hamzaalih@hotmail.com"
         
