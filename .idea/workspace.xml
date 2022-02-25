@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6890840-e9cd-4bd9-90c2-07b16d54f4e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2497c99f-9c43-402f-a092-efe13a520ce4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +150,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ca/qc/bdeb/baldr/noyau/DefaultTaskTest.java</url>
           <line>102</line>
-          <properties class="ca.qc.bdeb.baldr.noyau.DefaultTaskTest" method="toXML">
+          <properties class="ca.qc.bdeb.baldr.noyau.DefaultTaskTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -161,7 +159,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ca/qc/bdeb/baldr/noyau/SaveAndRestore.java</url>
           <line>176</line>
-          <properties class="ca.qc.bdeb.baldr.noyau.SaveAndRestore" method="ouvrirEnLecture">
+          <properties class="ca.qc.bdeb.baldr.noyau.SaveAndRestore">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
