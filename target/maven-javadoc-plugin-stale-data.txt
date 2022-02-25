@@ -1,3 +1,38 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/hamza/.m2/repository/org/swinglabs/swing-layout/1.0.3/swing-layout-1.0.3.jar;C:/Users/hamza/.m2/repository/org/apache/pdfbox/pdfbox-lucene/1.8.14/pdfbox-lucene-1.8.14.jar;C:/Users/hamza/.m2/repository/org/apache/pdfbox/pdfbox/1.8.14/pdfbox-1.8.14.jar;C:/Users/hamza/.m2/repository/org/apache/pdfbox/fontbox/1.8.14/fontbox-1.8.14.jar;C:/Users/hamza/.m2/repository/org/apache/pdfbox/jempbox/1.8.14/jempbox-1.8.14.jar;C:/Users/hamza/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar;C:/Users/hamza/.m2/repository/org/apache/lucene/lucene-core/2.4.1/lucene-core-2.4.1.jar;C:/Users/hamza/.m2/repository/org/apache/lucene/lucene-demos/2.4.1/lucene-demos-2.4.1.jar;C:/Users/hamza/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/AlphaBaldr/AlphaBaldr/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/AlphaBaldr/AlphaBaldr/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'MAVEN - Baldr 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/AlphaBaldr/AlphaBaldr/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'MAVEN - Baldr 1.0-SNAPSHOT API'
+ca.qc.bdeb.baldr.formattage
+ca.qc.bdeb.baldr.ihm
+ca.qc.bdeb.baldr.ihm.fileFilters
+ca.qc.bdeb.baldr.ihm.renderers
+ca.qc.bdeb.baldr.ihm.renderers.utils
+ca.qc.bdeb.baldr.main
+ca.qc.bdeb.baldr.noyau
+ca.qc.bdeb.baldr.utils
 'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/formattage/CommentParser.java'
 'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/formattage/ExtrairePDF.java'
 'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/formattage/TypeCommentaire.java'
@@ -52,3 +87,32 @@
 'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/Observable.java'
 'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/Observateur.java'
 'C:/AlphaBaldr/AlphaBaldr/src/main/java/ca/qc/bdeb/baldr/utils/Observation.java'
+C:\Users\hamza\.m2\repository\org\swinglabs\swing-layout\1.0.3\swing-layout-1.0.3.jar = 1643210370180
+C:\Users\hamza\.m2\repository\org\apache\pdfbox\pdfbox-lucene\1.8.14\pdfbox-lucene-1.8.14.jar = 1643210370219
+C:\Users\hamza\.m2\repository\org\apache\pdfbox\pdfbox\1.8.14\pdfbox-1.8.14.jar = 1643210373237
+C:\Users\hamza\.m2\repository\org\apache\pdfbox\fontbox\1.8.14\fontbox-1.8.14.jar = 1643210370315
+C:\Users\hamza\.m2\repository\org\apache\pdfbox\jempbox\1.8.14\jempbox-1.8.14.jar = 1643210370269
+C:\Users\hamza\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar = 1643203478436
+C:\Users\hamza\.m2\repository\org\apache\lucene\lucene-core\2.4.1\lucene-core-2.4.1.jar = 1643210371215
+C:\Users\hamza\.m2\repository\org\apache\lucene\lucene-demos\2.4.1\lucene-demos-2.4.1.jar = 1643210370353
+C:\Users\hamza\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar = 1643209282961
+C:\AlphaBaldr\AlphaBaldr\src\main\java = 1645723506402
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\allclasses-index.html = 1645751168431
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\allpackages-index.html = 1645751168435
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\constant-values.html = 1645751168191
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\element-list = 1645751168121
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\help-doc.html = 1645751168482
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\index-all.html = 1645751168482
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\index.html = 1645751168392
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\jquery-ui.overrides.css = 1645751168501
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\member-search-index.js = 1645751168439
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\module-search-index.js = 1645751168436
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\overview-summary.html = 1645751168482
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\overview-tree.html = 1645751168390
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\package-search-index.js = 1645751168437
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\script.js = 1645751168491
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\search.js = 1645751168491
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\serialized-form.html = 1645751168236
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\stylesheet.css = 1645751168482
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\tag-search-index.js = 1645751168442
+C:\AlphaBaldr\AlphaBaldr\target\site\apidocs\type-search-index.js = 1645751168439
