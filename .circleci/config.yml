@@ -47,8 +47,7 @@ jobs:
       - run:
           name: Test gh-pages
           command: | 
-            mvn clean 
-            
+           
           git switch gh-pages 
           echo '<!--Code Checked and Reviewed by Ali Hamza with DA = 1839821 -->' >> index.html 
           #echo '<h2>Mon nom est Ali Hamza et mon DA est 1839821</h2>' >> index.html
