@@ -16,6 +16,7 @@ import java.io.File;
  * Le point d'entrée du programme, utilisé pour lier l'interface graphique au
  * noyau.
  *
+ 
  * @author Baldr Team
  */
 public final class Main {

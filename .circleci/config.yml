@@ -49,13 +49,8 @@ jobs:
           command: | 
             mvn clean 
             
-           mkdir hamzadocs/
-           cd hamzadocs/
-           touch test
-          echo 'My name is Hamza' >> test
-
           git switch gh-pages 
-          #echo '<!--Code Checked and Reviewed by Ali Hamza with DA = 1839821 -->' >> index.html 
+          echo '<!--Code Checked and Reviewed by Ali Hamza with DA = 1839821 -->' >> index.html 
           #echo '<h2>Mon nom est Ali Hamza et mon DA est 1839821</h2>' >> index.html
           git config user.name  "Hamza Ali"
           git config user.email "hamzaalih@hotmail.com"
@@ -69,9 +64,7 @@ jobs:
             
             
             
-        git add . 
-        git commit -m "The first commit"
-        git push origin gh-pages
+        
 
 # Invoke jobs via workflows
 See: https://circleci.com/docs/2.0/configuration-reference/#workflows
