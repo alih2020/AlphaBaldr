@@ -50,22 +50,15 @@ jobs:
            
           git switch gh-pages 
           echo '<!--Code Checked and Reviewed by Ali Hamza with DA = 1839821 -->' >> index.html 
-          #echo '<h2>Mon nom est Ali Hamza et mon DA est 1839821</h2>' >> index.html
+          echo '<h2>Mon nom est Ali Hamza et mon DA est 1839821</h2>' >> index.html
           git config user.name  "Hamza Ali"
           git config user.email "hamzaalih@hotmail.com"
 
 
          git add . 
-         git commit -m "The first commit"
+         git commit -m commit
          git push origin gh-pages
 
-        git switch gh-pages 
-            
-            
-            
-        
-
-# Invoke jobs via workflows
 See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
