@@ -22,7 +22,7 @@ import java.io.File;
 public final class Main {
 
     /**
-     * La fenêtre du programme.
+     * La fenêtre du programme du projet Baldr.
      */
     public static WindowBaldr ihm;
     private static Noyau noyau;
