@@ -20,17 +20,20 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       
-      # Checkout the code as the first step.
+      # Checkout le code comme première étape du projet.
       - checkout
-      # Check echo
+      # Testez un message dans echo
       - run:
           name: Hello-world
           command: echo "Hello World"
-      # Use mvn clean and package asthe standard maven build phases
+      # Utilisez la commande mvn clean et mvn package asthe comme les phases standard de maven
       - run:
           name: Clean
           command: mvn clean
-      # Then run your tests!
+      - run:
+          name: Package
+          command: mvn package
+      # Après installez, compilez and démarrer vos tests!
       - run:
           name: Install
           command: mvn install
@@ -40,25 +43,37 @@ jobs:
       - run:
           name: Test
           command: mvn test
-        # Generating JavaDoc
+        # Générez le JavaDoc
       - run:
-         name: JavaDoc
+         name: Generate JavaDoc
          command: mvn javadoc:javadoc
       - run:
-          name: Test gh-pages
+          name: Automation 
           command: | 
-           
-          git switch gh-pages 
-          echo '<!--Code Checked and Reviewed by Ali Hamza with DA = 1839821 -->' >> index.html 
-          echo '<h2>Mon nom est Ali Hamza et mon DA est 1839821</h2>' >> index.html
-          git config user.name  "Hamza Ali"
-          git config user.email "hamzaalih@hotmail.com"
+              # Créer un fichier temporaire dans le répertoire tmp
+               cd ../../../tmp
+               mkdir fichierTemporaire 
+               # Copier les fichiers apidocs du projet dans le fichier temporaire
+               mv ../home/circleci/project/target/site/apidocs fichierTemporaire/
+               cd fichierTemporaire/apidocs 
+               # Retourner dans le projet git avant de changer de branche
+               cd ../../../home/circleci/project
+               
+               # Nétoyyer le contenu du branche main pour pouvoir changer de branche
+               mvn clean
+               # Changer de branche
+               git switch gh-pages
+               # Allez dans le fichier temporaire pour pouvoir récupérer les fichiers javadoc et les copiers dans le répertoire apidocs
+               cp -r ../../../tmp/fichierTemporaire/apidocs apidocs/
+               # Effectuez le commit pour apporter et autorisez les modifications lors de l'automatisation
+               git add .
+               # Entrez votre nom et email pour la configuration
+               git config user.email "hamzaalih@hotmail.com"
+               git config user.name  "Hamza Ali"
+               git commit -m "The first commit"
+               git push origin gh-pages
 
-
-         git add . 
-         git commit -m commit
-         git push origin gh-pages
-
+          
 See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
