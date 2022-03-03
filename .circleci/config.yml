@@ -5,22 +5,78 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  say-hello:
-    # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
-    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
+  # Below is the definition of your job to build and test your app, you can rename and customize it as you want.
+  build-and-test:
+    # These next lines define a Docker executor: https://circleci.com/docs/2.0/executor-types/
+    # You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
+    # Be sure to update the Docker image tag below to openjdk version of your application.
+    # A list of available CircleCI Docker Convenience Images are available here: https://circleci.com/developer/images/image/cimg/openjdk
     docker:
-      - image: cimg/base:stable
+      - image: cimg/openjdk:11.0
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
+      
+      # Checkout le code comme première étape du projet.
       - checkout
+      # Testez un message dans echo
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: Hello-world
+          command: echo "Hello World"
+      # Utilisez la commande mvn clean et mvn package asthe comme les phases standard de maven
+      - run:
+          name: Clean
+          command: mvn clean
+      - run:
+          name: Package
+          command: mvn package
+      # Après installez, compilez and démarrer vos tests!
+      - run:
+          name: Install
+          command: mvn install
+      - run:
+          name: Compile
+          command: mvn compile
+      - run:
+          name: Test
+          command: mvn test
+        # Générez le JavaDoc
+      - run:
+         name: Generate JavaDoc
+         command: mvn javadoc:javadoc
+      - run:
+          name: Automation 
+          command: | 
+              # Créer un fichier temporaire dans le répertoire tmp
+               cd ../../../tmp
+               mkdir fichierTemporaire 
+               # Copier les fichiers apidocs du projet dans le fichier temporaire
+               mv ../home/circleci/project/target/site/apidocs fichierTemporaire/
+               cd fichierTemporaire/apidocs 
+               # Retourner dans le projet git avant de changer de branche
+               cd ../../../home/circleci/project
+               
+               # Nétoyyer le contenu du branche main pour pouvoir changer de branche
+               mvn clean
+               # Changer de branche
+               git switch gh-pages
+               # Allez dans le fichier temporaire pour pouvoir récupérer les fichiers javadoc et les copiers dans le répertoire apidocs
+               cp -r ../../../tmp/fichierTemporaire/apidocs apidocs/
+               # Effectuez le commit pour apporter et autorisez les modifications lors de l'automatisation
+               git add .
+               # Entrez votre nom et email pour la configuration
+               git config user.email "hamzaalih@hotmail.com"
+               git config user.name  "Hamza Ali"
+               git commit -m "The first commit"
+               git push origin gh-pages
 
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+          
+See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  say-hello-workflow:
+  sample: # This is the name of the workflow, feel free to change it to better match your workflow.
+    # Inside the workflow, you define the jobs you want to run.
     jobs:
-      - say-hello
+      - build-and-test
