@@ -58,7 +58,7 @@ public final class Main {
     public static final boolean isMac;
 
     static {
-        String os = System.getProperty("os.name").toLowerCase()
+        String os = System.getProperty("os.name").toLowerCase();
         isMac = os.contains("mac");
     }
 
