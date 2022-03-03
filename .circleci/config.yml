@@ -23,6 +23,9 @@ jobs:
       # Checkout le code comme première étape du projet.
       - checkout
       # Testez un message dans echo
+      - add_ssh_keys:
+          fingerprints:
+            - "SO:ME:FIN:G:ER:PR:IN:T"
       - run:
           name: Hello-world
           command: echo "Hello World"
@@ -69,8 +72,10 @@ jobs:
                git add .
                # Entrez votre nom et email pour la configuration
                git config user.email "hamzaalih@hotmail.com"
+               ssh-keygen -t ed25519 -C "hamzaalih@hotmail.com"
                git config user.name  "Hamza Ali"
                git commit -m "The first commit"
+               ssh-add ~/.ssh/id_ed25519
                git push origin gh-pages
 
           
